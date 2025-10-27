@@ -4,7 +4,7 @@
 
 ## 🌐 Live Demo
 
-🔗 [Deployed on Vercel](https://your-deployment-url.vercel.app)
+🔗 [Deployed on Vercel](https://mini-project-zoha-syed-01.vercel.app/)
 
 ---
 

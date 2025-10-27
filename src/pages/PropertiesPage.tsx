@@ -3,6 +3,7 @@ import PropertyCard from '../components/PropertyCard';
 import PropertyFilter from '../components/PropertyFilter';
 import LoadingSpinner from '../components/LoadingSpinner';
 import ApiTest from '../components/ApiTest';
+import ApiModeToggle from '../components/ApiModeToggle';
 import { Property, PropertyFilter as FilterType } from '../types/property';
 import { propertyApi } from '../services/propertyApi';
 import { useApiMode } from '../contexts/ApiModeContext';
@@ -89,9 +90,12 @@ const PropertiesPage: React.FC = () => {
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
             Properties in India
           </h1>
-          <p className="text-gray-600">
+          <p className="text-gray-600 mb-6">
             Discover high-quality properties in the best locations across India.
           </p>
+          
+          {/* API Mode Toggle */}
+          <ApiModeToggle />
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8">
