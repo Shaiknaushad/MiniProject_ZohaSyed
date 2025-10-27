@@ -9,11 +9,5 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ],
-  "env": {
-    "VITE_SUPABASE_URL": "@vite_supabase_url",
-    "VITE_SUPABASE_ANON_KEY": "@vite_supabase_anon_key",
-    "VITE_RAPIDAPI_KEY": "@vite_rapidapi_key",
-    "VITE_USE_MOCK_DATA": "@vite_use_mock_data"
-  }
+  ]
 }
