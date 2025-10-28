@@ -86,6 +86,14 @@ const Header: React.FC = () => {
             >
               Contact
             </Link>
+            <Link 
+              to="/features" 
+              className={`transition-colors hover:text-blue-600 ${
+                isHomePage && !isScrolled ? 'text-white' : 'text-gray-800'
+              }`}
+            >
+              🚀 Features
+            </Link>
             
             {/* User Menu */}
             <div className="relative">
@@ -183,6 +191,13 @@ const Header: React.FC = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
+              </Link>
+              <Link 
+                to="/features" 
+                className="px-4 py-2 text-gray-800 hover:bg-gray-100 rounded"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                🚀 Features
               </Link>
               <Link 
                 to="/profile" 

@@ -12,6 +12,7 @@ import PropertiesPage from './pages/PropertiesPage';
 import PropertyDetailPage from './pages/PropertyDetailPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import FeaturesPage from './pages/FeaturesPage';
 import AuthPage from './pages/AuthPage';
 import ProfilePage from './pages/ProfilePage';
 import AdminSettings from './pages/AdminSettings';
@@ -81,6 +82,18 @@ function App() {
                   <Header />
                   <main className="flex-grow">
                     <ContactPage />
+                  </main>
+                  <Footer />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/features"
+              element={
+                <ProtectedRoute>
+                  <Header />
+                  <main className="flex-grow">
+                    <FeaturesPage />
                   </main>
                   <Footer />
                 </ProtectedRoute>

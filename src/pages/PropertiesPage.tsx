@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import PropertyCard from '../components/PropertyCard';
 import PropertyFilter from '../components/PropertyFilter';
 import LoadingSpinner from '../components/LoadingSpinner';
-import ApiTest from '../components/ApiTest';
 import ApiModeToggle from '../components/ApiModeToggle';
 import { Property, PropertyFilter as FilterType } from '../types/property';
 import { propertyApi } from '../services/propertyApi';
@@ -212,9 +211,6 @@ const PropertiesPage: React.FC = () => {
             )}
           </div>
         </div>
-        
-        {/* API Test Panel - Only visible in development */}
-        {import.meta.env.DEV && <ApiTest />}
       </div>
     </div>
   );

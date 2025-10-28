@@ -19,6 +19,8 @@ import { formatPrice, formatArea } from '../utils/formatters';
 import ImageGallery from '../components/ImageGallery';
 import ContactForm from '../components/ContactForm';
 import LoadingSpinner from '../components/LoadingSpinner';
+import CostOfLivingEstimator from '../components/CostOfLivingEstimator';
+import FutureValuePredictor from '../components/FutureValuePredictor';
 import { useUserActivity } from '../contexts/UserActivityContext';
 
 const PropertyDetailPage: React.FC = () => {
@@ -223,6 +225,25 @@ const PropertyDetailPage: React.FC = () => {
                   </div>
                 </div>
               </div>
+            </div>
+
+            {/* Cost of Living Estimator */}
+            <div className="mt-8">
+              <CostOfLivingEstimator 
+                location={property.location} 
+                propertyPrice={property.price} 
+              />
+            </div>
+
+            {/* Future Value Predictor */}
+            <div className="mt-8">
+              <FutureValuePredictor
+                propertyId={property.id}
+                currentValue={property.price}
+                location={property.location}
+                propertyType="apartment"
+                size={property.size}
+              />
             </div>
           </div>
 

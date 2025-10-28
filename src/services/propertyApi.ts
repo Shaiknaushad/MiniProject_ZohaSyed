@@ -170,10 +170,10 @@ class PropertyApiService {
     offset?: number;
   }): Promise<{ properties: Property[]; total: number }> {
     try {
-      const result = this.useMockData 
+      const result = this.useMockData
         ? await this.getMockProperties(filters)
         : await this.fetchFromRealAPI(filters);
-      
+
       return result;
     } catch (error) {
       console.error('API Error:', error);
@@ -197,7 +197,7 @@ class PropertyApiService {
   async searchProperties(query: string): Promise<Property[]> {
     await this.delay(700);
     const searchTerm = query.toLowerCase();
-    return this.mockProperties.filter(p => 
+    return this.mockProperties.filter(p =>
       p.title.toLowerCase().includes(searchTerm) ||
       p.location.toLowerCase().includes(searchTerm) ||
       p.description.toLowerCase().includes(searchTerm)
@@ -276,7 +276,7 @@ class PropertyApiService {
       }
 
       const data = await response.json();
-      
+
       // Transform API response to our Property interface
       const transformedProperties: Property[] = data.data?.home_search?.results?.map((item: any, index: number) => ({
         id: item.property_id || `api-${index}`,
@@ -315,12 +315,12 @@ class PropertyApiService {
         'goa': ['Candolim', 'Calangute', 'Anjuna', 'Panjim', 'Margao'],
         'pune': ['Koregaon Park', 'Hinjewadi', 'Baner', 'Kothrud', 'Viman Nagar']
       };
-      
+
       const areas = cityMap[filterLocation.toLowerCase()] || ['Central Area'];
       const randomArea = areas[Math.floor(Math.random() * areas.length)];
       return `${randomArea}, ${filterLocation.charAt(0).toUpperCase() + filterLocation.slice(1)}`;
     }
-    
+
     return location?.address?.line || 'Prime Location, India';
   }
 
@@ -338,7 +338,7 @@ class PropertyApiService {
       'Children\'s Play Area', 'Elevator', 'Power Backup', 'Water Supply',
       'Intercom', 'Maintenance Staff', 'CCTV', 'Fire Safety', 'Vastu Compliant'
     ];
-    
+
     const count = Math.floor(Math.random() * 6) + 3; // 3-8 amenities
     return allAmenities.sort(() => 0.5 - Math.random()).slice(0, count);
   }
@@ -353,7 +353,7 @@ class PropertyApiService {
     if (item.primary_photo?.href) {
       return [item.primary_photo.href, ...defaultImages.slice(1)];
     }
-    
+
     return defaultImages;
   }
 
@@ -363,7 +363,7 @@ class PropertyApiService {
 
     if (filters) {
       if (filters.location) {
-        filteredProperties = filteredProperties.filter(p => 
+        filteredProperties = filteredProperties.filter(p =>
           p.location.toLowerCase().includes(filters.location!.toLowerCase())
         );
       }
