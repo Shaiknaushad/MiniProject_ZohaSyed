@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4">Indian Estate</h3>
+            <h3 className="text-xl font-semibold mb-4">Propertia AI</h3>
             <p className="text-gray-400 mb-4">
               India's leading real estate company, committed to creating quality homes with excellent service.
             </p>
@@ -114,7 +114,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex">
                 <Mail size={20} className="mr-2 text-yellow-400 flex-shrink-0" />
-                <span className="text-gray-400">info@indianestateportal.com</span>
+                <span className="text-gray-400">info@propertiaai.com</span>
               </li>
               <li className="flex">
                 <Clock size={20} className="mr-2 text-yellow-400 flex-shrink-0" />
@@ -126,7 +126,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} Indian Estate Portal. All rights reserved.
+            &copy; {new Date().getFullYear()} Propertia AI. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to="/privacy" className="text-gray-400 text-sm hover:text-white transition-colors">

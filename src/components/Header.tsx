@@ -48,7 +48,7 @@ const Header: React.FC = () => {
                 isHomePage && !isScrolled ? 'text-white' : 'text-blue-900'
               }`}
             >
-              Indian Estate
+              Propertia AI
             </span>
           </Link>
 

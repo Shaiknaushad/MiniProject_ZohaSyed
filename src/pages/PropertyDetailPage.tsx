@@ -345,7 +345,7 @@ const PropertyDetailPage: React.FC = () => {
 
               <div className="mt-4 p-3 bg-blue-50 rounded-lg">
                 <p className="text-xs text-blue-800">
-                  💡 <strong>Pro Tip:</strong> Mention you found this property on Indian Estate Portal for priority service!
+                  💡 <strong>Pro Tip:</strong> Mention you found this property on Propertia AI for priority service!
                 </p>
               </div>
             </div>

@@ -17,7 +17,6 @@ const AuthPage: React.FC = () => {
     confirmPassword: '',
   });
 
-  // Redirect if already authenticated
   if (user) {
     return <Navigate to="/" replace />;
   }
@@ -120,7 +119,7 @@ const AuthPage: React.FC = () => {
             {isLogin ? 'Welcome back!' : 'Create your account'}
           </h2>
           <p className="mt-2 text-sm text-gray-600">
-            {isLogin ? 'Sign in to your Indian Estate Portal account' : 'Join Indian Estate Portal today'}
+            {isLogin ? 'Sign in to your Propertia AI account' : 'Join Propertia AI today'}
           </p>
         </div>
 

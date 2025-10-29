@@ -8,7 +8,7 @@ const AboutPage: React.FC = () => {
       <section className="bg-blue-900 text-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Indian Estate Portal</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Propertia AI</h1>
             <p className="text-xl text-blue-100 leading-relaxed">
               Your trusted partner in finding the perfect property across India. With over a decade of experience,
               we've helped thousands of families find their dream homes in the most prestigious locations.
@@ -24,7 +24,7 @@ const AboutPage: React.FC = () => {
             <div className="lg:w-1/2">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Founded in 2013, Indian Estate Portal began with a simple vision: to revolutionize the real estate
+                Founded in 2013, Propertia AI began with a simple vision: to revolutionize the real estate
                 experience in India by combining traditional values with modern technology. What started as a small
                 team in Mumbai has grown into one of India's most trusted real estate platforms.
               </p>
@@ -34,7 +34,7 @@ const AboutPage: React.FC = () => {
                 of experienced professionals is dedicated to making your real estate journey smooth and successful.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Today, we proudly serve clients across major Indian cities including Mumbai, Delhi, Bangalore,
+                Today, we proudly serve clients across major cities in India including Mumbai, Delhi, Bangalore,
                 Chennai, Hyderabad, Pune, and many more, offering a diverse portfolio of residential and commercial properties.
               </p>
             </div>
@@ -164,7 +164,7 @@ const AboutPage: React.FC = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Team</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Meet the dedicated professionals behind Indian Estate Portal.
+              Meet the dedicated professionals behind Propertia AI.
             </p>
           </div>
           
@@ -199,7 +199,7 @@ const AboutPage: React.FC = () => {
               <div className="bg-blue-50 rounded-xl p-8 border-2 border-blue-100">
                 <h3 className="text-2xl font-bold text-blue-900 mb-4">This is the Last Thing</h3>
                 <p className="text-gray-700 text-lg">
-                  Together, we've built Indian Estate Portal to serve you better.
+                  Together, we've built Propertia AI to serve you better.
                 </p>
               </div>
             </div>

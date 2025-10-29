@@ -34,7 +34,7 @@ const ContactPage: React.FC = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Head Office</h3>
                     <p className="text-gray-600">
-                      Indian Estate Portal Pvt. Ltd.<br />
+                      Propertia AI Pvt. Ltd.<br />
                       Tower A, 15th Floor, Business Bay<br />
                       Bandra Kurla Complex, Mumbai - 400051<br />
                       Maharashtra, India
@@ -63,9 +63,9 @@ const ContactPage: React.FC = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Addresses</h3>
                     <p className="text-gray-600">
-                      General: info@indianestateportal.com<br />
-                      Sales: sales@indianestateportal.com<br />
-                      Support: support@indianestateportal.com
+                      General: info@propertiaai.com<br />
+                      Sales: sales@propertiaai.com<br />
+                      Support: support@propertiaai.com
                     </p>
                   </div>
                 </div>
@@ -128,7 +128,7 @@ const ContactPage: React.FC = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Office Locations</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Visit us at any of our offices across major Indian cities. Our local teams are ready to assist you with your real estate needs.
+              Visit us at any of our offices across major cities in India. Our local teams are ready to assist you with your real estate needs.
             </p>
           </div>
           
@@ -146,7 +146,7 @@ const ContactPage: React.FC = () => {
                 </p>
                 <p className="flex items-center">
                   <Mail size={16} className="mr-2 text-blue-900" />
-                  mumbai@indianestateportal.com
+                  mumbai@propertiaai.com
                 </p>
               </div>
             </div>
@@ -164,7 +164,7 @@ const ContactPage: React.FC = () => {
                 </p>
                 <p className="flex items-center">
                   <Mail size={16} className="mr-2 text-blue-900" />
-                  delhi@indianestateportal.com
+                  delhi@propertiaai.com
                 </p>
               </div>
             </div>
@@ -182,7 +182,7 @@ const ContactPage: React.FC = () => {
                 </p>
                 <p className="flex items-center">
                   <Mail size={16} className="mr-2 text-blue-900" />
-                  bangalore@indianestateportal.com
+                  bangalore@propertiaai.com
                 </p>
               </div>
             </div>

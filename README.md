@@ -1,6 +1,6 @@
-# 🏡 Indian Estate Portal
+# 🏡 Propertia AI
 
-**Indian Estate Portal** is a modern, high-performance real estate web application built with **React**, **TypeScript**, **TailwindCSS**, and **Vite**. Features comprehensive property listings, user authentication, activity tracking, and agent contact systems.
+**Propertia AI** is a modern, high-performance real estate web application built with **React**, **TypeScript**, **TailwindCSS**, and **Vite**. Features comprehensive property listings, user authentication, activity tracking, AI-powered property analysis, and agent contact systems.
 
 ## 🌐 Live Demo
 
@@ -21,7 +21,7 @@
 ## 🚀 Features
 
 - 🔐 **User Authentication** - Supabase-powered login/signup
-- 🏠 **Property Listings** - Browse Indian real estate properties
+- 🏠 **Property Listings** - Browse real estate properties across India
 - 📊 **Activity Tracking** - User interaction analytics
 - 💬 **Agent Contact** - Call, WhatsApp, Email integration
 - ❤️ **Favorites System** - Save and manage favorite properties
@@ -33,7 +33,7 @@
 ```bash
 # Clone the repository
 git clone <your-repo-url>
-cd indian-real-estate
+cd propertia-ai
 
 # Install dependencies
 npm install
